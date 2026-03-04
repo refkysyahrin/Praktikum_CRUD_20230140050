@@ -16,7 +16,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class User {
-
     @Id
     private String id;
 
@@ -25,4 +24,5 @@ public class User {
 
     @Column(name = "age", nullable = false)
     private int age;
+
 }
